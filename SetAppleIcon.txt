@@ -1,0 +1,14 @@
+        //設定APPLEICON
+        public string SetAppleIcon()
+        {
+            string LinkText = "";
+
+            LinkText += "<link href='https://Domain_Name/Home/img/icon/iPhon_60.png' rel='apple-touch-icon' size='60x60' />"
+                        + "<link href='https://Domain_Name/Home/img/icon/iPad_76.png' rel='apple-touch-icon' sizes='76x76' />"
+                        + "<link href='https://Domain_Name/Home/img/icon/iPhoneRetina_120.png' rel='apple-touch-icon' sizes='120x120' />"
+                        + "<link href='https://Domain_Name/Home/img/icon/iPadRetina_152.png' rel='apple-touch-icon' sizes='152x152' />"
+                        + "<link href='https://Domain_Name/Home/img/icon/iPhonePlus_180.png' rel='apple-touch-icon' sizes='180x180' />"
+                        + "<link href='https://Domain_Name/Home/img/icon/favicon.png' rel='shortcut icon'/>";
+
+            return LinkText;
+        }
